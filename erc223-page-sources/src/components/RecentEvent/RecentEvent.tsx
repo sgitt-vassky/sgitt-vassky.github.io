@@ -10,6 +10,7 @@ interface Props {
     title: string,  
   }[],
   date: string,
+  subclass: string,
   isHighlighted: boolean,
   onMouseEnter: () => void,
   onMouseLeave: () => void,
