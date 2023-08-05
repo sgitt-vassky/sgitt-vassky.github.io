@@ -13,6 +13,7 @@ export type IRecentEvent = {
     url: string,  
   }[],
   date: string,
+  subclass?: string,
   id?: string
 }
 
