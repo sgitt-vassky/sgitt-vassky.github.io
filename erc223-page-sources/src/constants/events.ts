@@ -5,6 +5,7 @@ export const events: IRecentEvent[] = [
     title: "[discord] Educational post regarding ERC-20 insecurity is created on CryptoDevs discord",
     url: "https://discord.com/channels/435685690936786944/1136758298159353988",
     date: "4.08.2023",
+    subclass: "danger",
   },
   {
     title: "[🍿Ongoing] The output of the ERC-20 losses calculation script is pending approval by r/ethereum mods for 1 day",
