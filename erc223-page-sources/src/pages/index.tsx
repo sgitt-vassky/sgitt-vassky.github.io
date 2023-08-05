@@ -148,6 +148,7 @@ export default function Home() {
                     urls={urls}
                     title={title}
                     date={date}
+                    subclass={subclass}
                     isHighlighted={!!eventId && eventId===id}
                     onMouseEnter={() => { setEventId(id || null) }}
                     onMouseLeave={() => setEventId(null)}
